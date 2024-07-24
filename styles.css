@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('<img src="https://i.ibb.co/864gtzP/shopping-paper-commercial.jpg" alt="shopping-paper-commercial" border="0">.jpg');
+    background-size: cover;
+  }
+  
+  header, main, footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+  }
+
+
+/* Custom styles for Moeed Store */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #f8c200 !important;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+h1 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #343a40;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #f8c200;
+  border-color: #f8c200;
+}
+
+.btn-primary:hover {
+  background-color: #e6b000;
+  border-color: #e6b000;
+}
+
+.alert-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #343a40;
+}
+
+.login-page {
+  background: url('login-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.signup-page {
+  background: url('signup-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.home-page {
+  background: url('https://www.google.com/imgres?q=background%20images%20wor%20moeed%20store&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-psd%2Fshopping-sales-background_23-2150343498.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Fpsd%2Fstore-background&docid=ZmC9bHQ4jOci0M&tbnid=twnGpZNEYUGCqM&vet=12ahUKEwi8zdmAwLKHAxWdRKQEHQGIB-8QM3oFCIkBEAA..i&w=626&h=438&hcb=2&ved=2ahUKEwi8zdmAwLKHAxWdRKQEHQGIB-8QM3oFCIkBEAA') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-container, .signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2, .signup-container h2 {
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container form, .signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container input, .signup-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button, .signup-container button {
+  background-color: #f8c200;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-container button:hover, .signup-container button:hover {
+  background-color: #e6b000;
+}
